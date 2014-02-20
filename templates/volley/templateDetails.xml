@@ -35,6 +35,8 @@
         <position>index-bottom-center-row</position>
         <position>sidebar</position>
         <position>content</position>
+        <position>slider-news</position>
+        <position>slider-images</position>
 	</positions>
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.tpl_volley.ini</language>

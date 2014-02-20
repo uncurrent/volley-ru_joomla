@@ -17,7 +17,7 @@
 </div>
 <div class='container collapse in' id='showcase'>
     <div class='col-md-4 newslist wrapper'>
-        <ul>
+       <!-- <ul>
             <li class="active">
                 <a data-slide-to='0' data-target='#carousel' href='#'>
                     <span class='date'>13/<small>03</small></span>
@@ -108,7 +108,10 @@
                     <span class="news-item">Руис - наш человек</span>
                 </a>
             </li>
-        </ul>
+        </ul>-->
+        <?php if ($this->countModules('slider-news')): ?>
+            <jdoc:include type="modules" name="slider-news"   />
+        <?php endif; ?>
         <div class="scroller__track"><!-- Track is optional -->
             <div class="scroller__bar"></div>
         </div>
