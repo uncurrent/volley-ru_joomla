@@ -10,13 +10,16 @@
             </button>
         </div>
         <div class='collapse navbar-collapse navbar-ex1-collapse'>
-            <ul class="nav navbar-nav">
-                <li class="item-101 current active first"><a href="/" ><span>О федерации</span></a></li>
-                <li class="item-102"><a href="/sbornye" ><span>Сборные</span></a></li>
-                <li class="item-103"><a href="/kluby" ><span> Клубы</span></a></li>
-                <li class="item-104"><a href="/sorevnovaniya" ><span> Соревнования</span></a></li>
-                <li class="item-105 last"><a href="/2013-11-07-16-58-15" ><span>Медиа</span></a></li>
-            </ul>
+            <?php if ($this->countModules('topmenu')): ?>
+                <jdoc:include type="modules" name="topmenu"   />
+            <?php endif; ?>
+<!--            <ul class="nav navbar-nav">-->
+<!--                <li class="item-101 current active first"><a href="/" ><span>О федерации</span></a></li>-->
+<!--                <li class="item-102"><a href="/sbornye" ><span>Сборные</span></a></li>-->
+<!--                <li class="item-103"><a href="/kluby" ><span> Клубы</span></a></li>-->
+<!--                <li class="item-104"><a href="/sorevnovaniya" ><span> Соревнования</span></a></li>-->
+<!--                <li class="item-105 last"><a href="/2013-11-07-16-58-15" ><span>Медиа</span></a></li>-->
+<!--            </ul>-->
 
             <ul class='social-links nav navbar-nav navbar-right'>
                 <li>
