@@ -34,6 +34,7 @@ if ($active == $homepage) {
 } else {
     include_once JPATH_THEMES.'/'.$this->template.'/parts/content.php';
 } ?>
+test!!!!
 <?php include_once JPATH_THEMES.'/'.$this->template.'/parts/footer.php'; ?>
 
 <jdoc:include type="modules" name="debug" />
