@@ -23,7 +23,7 @@ defined('_JEXEC') or die;?>
     <![endif]-->
 </head>
 <body>
-testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+test gabriel<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <?php include_once JPATH_THEMES.'/'.$this->template.'/parts/header.php'; ?>
 <?php include_once JPATH_THEMES.'/'.$this->template.'/parts/topnav.php'; ?>
 <?php
