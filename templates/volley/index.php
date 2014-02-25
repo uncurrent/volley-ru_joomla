@@ -24,6 +24,7 @@ defined('_JEXEC') or die;?>
 </head>
 <body>
 test 1111  gabriel<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+test 222  gabriel<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <?php include_once JPATH_THEMES.'/'.$this->template.'/parts/header.php'; ?>
 <?php include_once JPATH_THEMES.'/'.$this->template.'/parts/topnav.php'; ?>
 <?php
