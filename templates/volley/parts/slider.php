@@ -157,5 +157,7 @@
     </div>
 </div>
 <div class="space"></div>
-new position
-<div class="space"></div>
+<div class='col-md-12'>
+	<jdoc:include type="modules" name="banners"   />
+<div class='col-md-12'>
+	 <div class="space"></div>
